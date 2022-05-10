@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Trebuchet MS','Lucida Sans', Arial, sans-serif;
+    background: #fff url(../imagens/imagens/fundo.png)  repeat-x;
+}
+
+#container{
+    width: 720px;
+    margin: 0 auto;
+
+}
+
+
+
+#topo{
+    background: url(../imagens/imagens/detalhe-topo.png) no-repeat right top;
+    height: 150px;
+    margin-top: 10px;
+}
+
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/imagens/logo.png) center no-repeat;
+}
+
+.logo>h1{
+    text-indent: -3000px;
+}
+
+#topo>ul{
+    background: #b10333;
+    margin-top: 60px;
+    float: left;
+}
+
+
+
+#topo a{
+    font-size: 18px;
+    padding: 0.5em 1.5em;
+    display: block;
+    text-decoration: none;
+    line-height: 1.5em;
+    color: #fff;
+    background: url(../imagens/imagens/divisor.png) no-repeat left;
+    font-weight: bold;
+}
+
+
+#topo a:hover{
+    color: #69001d;
+    text-decoration:underline;
+}
+
+#topo .primeiro a{
+    background: none;
+}
+
+
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+}
+
+ul>li{
+    float: left;
+}
+
+
+/*Mudando cor da navegação*/
+
+
+.home a#home{
+   
+    background-color:  #de003e;
+    transition: background is;
+}
+
+
+
